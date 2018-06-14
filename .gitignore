@@ -1,3 +1,6 @@
+# AMBuild ignore
+/build/
+
 # Generic C++ ignore
 
 ## Prerequisites
