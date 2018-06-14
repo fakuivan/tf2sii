@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "AMBuildScript": "python",
+        "AMBuilder": "python",
+        "PackageScript": "python"
+    },
+}
