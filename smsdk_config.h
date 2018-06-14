@@ -38,12 +38,12 @@
  */
 
 /* Basic information exposed publicly */
-#define SMEXT_CONF_NAME			"Sample Extension"
-#define SMEXT_CONF_DESCRIPTION	"Sample extension to help developers"
+#define SMEXT_CONF_NAME			"TF2 Simple Items Info"
+#define SMEXT_CONF_DESCRIPTION	"Extension that provides access to the already parsed item schema to plugins"
 #define SMEXT_CONF_VERSION		"0.0.0.0"
-#define SMEXT_CONF_AUTHOR		"AlliedModders"
-#define SMEXT_CONF_URL			"http://www.sourcemod.net/"
-#define SMEXT_CONF_LOGTAG		"SAMPLE"
+#define SMEXT_CONF_AUTHOR		"fakuivan"
+#define SMEXT_CONF_URL			"https://forums.alliedmods.net/member.php?u=264797"
+#define SMEXT_CONF_LOGTAG		"TF2SII"
 #define SMEXT_CONF_LICENSE		"GPL"
 #define SMEXT_CONF_DATESTRING	__DATE__
 

@@ -36,6 +36,6 @@
  * @brief Implement extension code here.
  */
 
-Sample g_Sample;		/**< Global singleton for extension's main interface */
+TF2SimpleItemInfo g_TF2SimpleItemInfo;		/**< Global singleton for extension's main interface */
 
-SMEXT_LINK(&g_Sample);
+SMEXT_LINK(&g_TF2SimpleItemInfo);
