@@ -2,6 +2,7 @@
     "files.associations": {
         "AMBuildScript": "python",
         "AMBuilder": "python",
-        "PackageScript": "python"
+        "PackageScript": "python",
+        "package/gamedata/*": "vdf"
     },
 }

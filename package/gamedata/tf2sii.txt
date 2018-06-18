@@ -1,0 +1,21 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "GetItemSchema"
+            {
+                "library"   "server"
+                "linux"     "@_Z13GetItemSchemav"
+            }
+        }
+        "Offsets"
+        {
+            "CTFItemSchema::m_pKeyValues"
+            {
+                "linux"         "8"
+            }
+        }
+    }
+}
