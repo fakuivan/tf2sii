@@ -109,6 +109,8 @@ class ExtensionConfig(object):
         self.sm_root = ResolveEnvPath('SOURCEMOD', 'sourcemod')
       if not self.sm_root:
         self.sm_root = ResolveEnvPath('SOURCEMOD_DEV', 'sourcemod-central')
+      if not self.sm_root:
+        self.sm_root = os.path.join(builder.sourcePath, ".libs", "sourcemod")
 
     if not self.sm_root or not os.path.isdir(self.sm_root):
       raise Exception('Could not find a source copy of SourceMod')
@@ -122,6 +124,8 @@ class ExtensionConfig(object):
         self.mms_root = ResolveEnvPath('MMSOURCE', 'metamod-source')
       if not self.mms_root:
         self.mms_root = ResolveEnvPath('MMSOURCE_DEV', 'mmsource-central')
+      if not self.mms_root:
+        self.mms_root = os.path.join(builder.sourcePath, ".libs", "mmsource")
 
     if not self.mms_root or not os.path.isdir(self.mms_root):
       raise Exception('Could not find a source copy of Metamod:Source')
